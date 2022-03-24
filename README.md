@@ -1,3 +1,4 @@
 - 🔭 I’m currently working on sporradic updates to multiple SS13 codebases based on what ways the neurons click.
+- 👩‍💻 Available for development work in regards to mapping within SS13.
 - 📫 How to reach me; Discord @ Blue-Berry#9788
 - 😄 Pronouns: She/Her
