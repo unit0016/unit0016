@@ -1,4 +1,4 @@
-- 🔭 I’m currently working on multiple miscellaneous mapping projects.
+- 🔭 I’m currently working on StarStation13. And only. StarStation13.
 - 👩‍💻 Available for development work in regards to mapping within SS13.
 - 📫 How to reach me; Discord @ Blue-Berry#0016
 - 😄 Pronouns: She/Her
