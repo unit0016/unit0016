@@ -1,4 +1,4 @@
-- 🔭 I’m currently working on multiple SS13 codebases.
+- 🔭 I’m currently not working.
 - 👩‍💻 Available for development work in regards to mapping within SS13.
 - 📫 How to reach me; Discord @ Blue-Berry#0016
 - 😄 Pronouns: She/Her
