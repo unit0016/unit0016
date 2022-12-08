@@ -29,3 +29,11 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
