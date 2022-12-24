@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="673" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="753" class="">
     <defs>
         <style/>
     </defs>
@@ -275,7 +275,7 @@ This doesn't include fixes for the (non-existant) industrial lift, which we real
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">ab458a25</span>
-                            <span class="code">_maps/holestation.json</span>
+                            <span class="code">code/__DEFINES/icon_smoothing.dm</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -283,14 +283,14 @@ This doesn't include fixes for the (non-existant) industrial lift, which we real
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -8,5 +8,5 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	"whiteship": "whiteship_box",<br /></span><span class="token prefix unchanged">·</span><span class="token line">	"emergency": "emergency_holestation"<br /></span><span class="token prefix unchanged">·</span><span class="token line">},<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">"traits": [{"Up" : 1, "Linkage" : "Cross"}, {"Down" : -1, "Baseturf" : "/turf/open/transparent/openspace", "Linkage" : "Cross"}]<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">"traits": [{"Up" : 1, "Linkage" : "Cross"}, {"Down" : -1, "Baseturf" : "/turf/open/openspace", "Linkage" : "Cross"}]<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -25,7 +25,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#define SMOOTH_GROUP_TURF_OPEN S_TURF(0)				///turf/open<br /></span><span class="token prefix unchanged">·</span><span class="token line">#define SMOOTH_GROUP_TURF_CHASM S_TURF(1)				///turf/open/chasm, /turf/open/floor/fakepit<br /></span><span class="token prefix unchanged">·</span><span class="token line">#define SMOOTH_GROUP_FLOOR_LAVA S_TURF(2)				///turf/open/lava/smooth<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">#define SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS S_TURF(3)	///turf/open/transparent/glass<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">#define SMOOTH_GROUP_FLOOR_TRANSPARENT_GLASS S_TURF(3)	///turf/open/floor/glass<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">#define SMOOTH_GROUP_OPEN_FLOOR S_TURF(4)				///turf/open/floor<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Dec 2022, 23:16:54 (timezone America/New_York) with lowlighter/metrics@3.31.0</span>
+                <span>Last updated 24 Dec 2022, 00:12:18 (timezone America/New_York) with lowlighter/metrics@3.31.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
