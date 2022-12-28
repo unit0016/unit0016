@@ -290,7 +290,7 @@ This reverts commit 8ffe81150bdd4303f57ae2553f064fa0a30dd82d.
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 28 Dec 2022, 06:12:02 (timezone America/New_York) with lowlighter/metrics@3.31.0</span>
+                <span>Last updated 28 Dec 2022, 07:25:44 (timezone America/New_York) with lowlighter/metrics@3.31.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
