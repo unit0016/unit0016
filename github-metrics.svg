@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="807" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="713" class="">
     <defs>
         <style/>
     </defs>
@@ -256,7 +256,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 18 Jan 2023, 17:33:43
+                            On 18 Jan 2023, 18:14:42
                         </div>
                     </section>
                 </div>
@@ -266,29 +266,29 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            aaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                            I LOVE GROUPINGGGG
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">181c395c</span>
-                            <span class="code">code/__HELPERS/areas.dm</span>
-                            <span class="code"><span class="snippet additions">++3</span> <span class="snippet deletions">--3</span></span>
+                            <span class="code">d325b274</span>
+                            <span class="code">code/modules/mob/living/death.dm</span>
+                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,8 +1,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#define BP_MAX_ROOM_SIZE 300<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">GLOBAL_LIST_INIT(typecache_powerfailure_safe_areas, typecacheof(/area/engine/engineering, \<br /></span><span class="token prefix deleted">-</span><span class="token line">														    /area/engine/supermatter, \<br /></span><span class="token prefix deleted">-</span><span class="token line">														    /area/engine/atmospherics_engine, \<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">GLOBAL_LIST_INIT(typecache_powerfailure_safe_areas, typecacheof(/area/station/engineering, \<br /></span><span class="token prefix inserted">+</span><span class="token line">														    /area/station/engineering/supermatter, \<br /></span><span class="token prefix inserted">+</span><span class="token line">														    /area/station/engineering/atmospherics_engine, \<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">														    /area/ai_monitored/turret_protected/ai))<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">// Gets an atmos isolated contained space</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -55,7 +55,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">var/turf/T = get_turf(src)<br /></span><span class="token prefix unchanged">·</span><span class="token line">for(var/obj/item/I in contents)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	I.on_mob_death(src, gibbed)<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">if(mind &amp;&amp; mind.name &amp;&amp; mind.active &amp;&amp; !istype(T.loc, /area/ctf))<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">if(mind &amp;&amp; mind.name &amp;&amp; mind.active &amp;&amp; !istype(T.loc, /area/special/ctf))<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	deadchat_broadcast(" has died at &lt;b&gt;[get_area_name(T)]&lt;/b&gt;.", "&lt;b&gt;[mind.name]&lt;/b&gt;", follow_target = src, turf_target = T, message_type=DEADCHAT_DEATHRATTLE)<br /></span><span class="token prefix unchanged">·</span><span class="token line">if(mind)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	mind.store_memory("Time of death: [tod]", 0)</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 21 Jan 2023, 06:11:13 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
+                <span>Last updated 21 Jan 2023, 07:24:18 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
