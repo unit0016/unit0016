@@ -269,7 +269,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">9dbe2c23</span>
-                            <span class="code">code/modules/antagonists/ert/ert.dm</span>
+                            <span class="code">code/modules/recycling/disposal/bin.dm</span>
                             <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
@@ -277,14 +277,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -208,7 +208,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">add_antag_hud(antag_hud_type, antag_hud_name, M)<br /></span><span class="token prefix unchanged">·</span><span class="token line">if(M.hud_used)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	var/datum/hud/H = M.hud_used<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	var/obj/screen/wanted/giving_wanted_lvl = new /obj/screen/wanted()<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	var/atom/movable/screen/wanted/giving_wanted_lvl = new /atom/movable/screen/wanted()<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	H.wanted_lvl = giving_wanted_lvl<br /></span><span class="token prefix unchanged">·</span><span class="token line">	giving_wanted_lvl.hud = H<br /></span><span class="token prefix unchanged">·</span><span class="token line">	H.infodisplay += giving_wanted_lvl</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -432,7 +432,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/machinery/disposal/bin/get_remote_view_fullscreens(mob/user)<br /></span><span class="token prefix unchanged">·</span><span class="token line">if(user.stat == DEAD || !(user.sight &amp; (SEEOBJS|SEEMOBS)))<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	user.overlay_fullscreen("remote_view", /obj/screen/fullscreen/impaired, 2)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	user.overlay_fullscreen("remote_view", /atom/movable/screen/fullscreen/impaired, 2)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">//Delivery Chute<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Feb 2023, 16:12:58 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
+                <span>Last updated 8 Feb 2023, 17:13:54 (timezone America/New_York) with lowlighter/metrics@3.32.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
