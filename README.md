@@ -1,5 +1,5 @@
 - 🔭 I’m currently not working.
-- 👩‍💻 Available for development work in regards to mapping within SS13.
+- 👩‍💻 Available for 2D Level Design work.
 - 📫 How to reach me; Discord @ bluwu016
 - 😄 Pronouns: She/Her
 
