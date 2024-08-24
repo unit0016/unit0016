@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="713" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="687" class="">
     <defs>
         <style/>
     </defs>
@@ -268,7 +268,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 22 Aug 2024, 16:32:52
+                            On 21 Aug 2024, 14:33:14
                         </div>
                     </section>
                 </div>
@@ -278,16 +278,16 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Station Arrivals Condo
+                            Update condo_teleporter.dm
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">0b4edb0b</span>
-                            <span class="code">local/code/modules/condos/condo_doors.dm</span>
+                            <span class="code">66753ea4</span>
+                            <span class="code">local/code/modules/condos/condo_teleporter.dm</span>
                             <span class="code">
-                                <span class="snippet additions">++6</span>
+                                <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--0</span>
                             </span>
                         </div>
@@ -296,14 +296,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -13,3 +13,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">/turf/closed/indestructible/hoteldoor/fakedoor/Initialize(mapload)<br /></span><span class="token prefix unchanged">·</span><span class="token line">. = ..()<br /></span><span class="token prefix unchanged">·</span><span class="token line">underlays += mutable_appearance(initial(floor_to_copy.icon), initial(floor_to_copy.icon_state), initial(floor_to_copy.layer), offset_spokesman = src, plane = FLOOR_PLANE)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">/turf/closed/indestructible/hoteldoor/fakedoor/public<br /></span><span class="token prefix inserted">+</span><span class="token line">icon = /obj/machinery/door/airlock/public::icon<br /></span><span class="token prefix inserted">+</span><span class="token line">icon_state = "closed"<br /></span><span class="token prefix inserted">+</span><span class="token line">opacity = FALSE<br /></span><span class="token prefix inserted">+</span><span class="token line">floor_to_copy = /turf/open/floor/iron</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,5 +1,6 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">// Essentially a rewritten version of Hilbert's Hotel that supports multiple map templates; and a reference to GMTower's beautiful condo system. You should play it's successor... :3<br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/machinery/interlink_condo_teleporter<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">SET_BASE_VISUAL_PIXEL(0, DEPTH_OFFSET)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">name = "Matrixed Teleportation Unit"<br /></span><span class="token prefix unchanged">·</span><span class="token line">desc = "A sub-divided; stable teleportation system with a unseen central processing hub."<br /></span><span class="token prefix unchanged">·</span><span class="token line">icon = /obj/machinery/teleport/hub::icon</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Aug 2024, 23:16:17 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 24 Aug 2024, 00:17:42 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
