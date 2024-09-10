@@ -272,7 +272,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 10 Sept 2024, 07:16:09
+                            On 9 Sept 2024, 20:21:28
                         </div>
                     </section>
                 </div>
@@ -282,18 +282,14 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Humans no longer need surnames by default
-
-This commit mostly exists so I can rant before bed. tl;dr; i tried to port citadel sprinting to help sell the combat a bit more. Unfortunately; I'm at port capacity; clearly; because even trying to rewrite it for /tg/code was a disaster. Did make two new SFX for it; though, so.. that's something?
-
-I think we're going without sprinting for a while; unless another codebase on the same license would be more workable for it or I get inspiration to do a massive ground-up piece of work AGAIN. either's feasible ig
+                            Re-balances Force (lmao)
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">e11111d5</span>
-                            <span class="code">config/game_options.txt</span>
+                            <span class="code">7ae5d1d8</span>
+                            <span class="code">code/modules/mob/living/basic/basic_defense.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -304,14 +300,14 @@ I think we're going without sprinting for a while; unless another codebase on th
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -50,7 +50,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">## NAMES ###<br /></span><span class="token prefix unchanged">·</span><span class="token line">## If uncommented this adds a random surname to a player's name if they only specify one name.<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">HUMANS_NEED_SURNAMES<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line"># HUMANS_NEED_SURNAMES<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">## If uncommented, this forces all players to use random names !and appearances!.<br /></span><span class="token prefix unchanged">·</span><span class="token line">#FORCE_RANDOM_NAMES</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -27,7 +27,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	return<br /></span><span class="token prefix unchanged">·</span><span class="token line">user.do_attack_animation(src, ATTACK_EFFECT_PUNCH)<br /></span><span class="token prefix unchanged">·</span><span class="token line">// Handle rolling here. Unarmed rolls on basic mobs are handled seperately from melee rolls &amp; unarmed rolls on humans; because techdebt is funny. See _species.dm<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">var/potential_requirement = 9<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">var/potential_requirement = 13<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">if(user == src) // Drones, holoparasites; edgecases ala them<br /></span><span class="token prefix unchanged">·</span><span class="token line">	potential_requirement = 3<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Sept 2024, 08:32:20 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 10 Sept 2024, 09:22:09 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
