@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="682" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="802" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.categories{display:flex;align-items:center;justify-content:space-around;margin-top:4px}svg.calendar{margin-left:13px;margin-top:4px}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}svg.calendar{margin-left:13px;margin-top:4px}.deleted{color:#da3633}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -272,7 +272,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 10 Sept 2024, 22:36:03
+                            On 9 Sept 2024, 06:38:16
                         </div>
                     </section>
                 </div>
@@ -282,161 +282,23 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            [MDB Ignore] The Tenets Of Life: Skills; Stats; Dicerolls; &amp; Combat/Movement Overhaul (#2)
-
-* Three D-Six - Initial Port; Shoving
-
-Ports the framework for the 3D6 system from Daedalus Dock (first seen in #721).
-
-Kapu has had no part in this porting process; but they were the author of the actual system in place here and as such I've elected to put their name as a co-author.
-
-Stat datums are instanced per-mob but don't autodelete YET. That is tomorrow's problem
-
-Co-Authored-By: Kapu1178 &lt;75460809+kapu1178@users.noreply.github.com&gt;
-
-* Tooltip Half-Fix; Shove Fix Stats Delete Now
-
-* Fix tooltip
-
-* Backend Work
-
-Adds support for defenders using a different skill than the one rolled for their defensive stats
-
-* Grip Rolls
-
-Being grabbed is now also on the diceroll system, with the previous probability-based model being excised. Those proficient in grip should also get the HAUL gauntlet trait later-on but that's a "not yet" sorta deal atm
-
-Odds should be roughly similar if both parties have the same stats but can vary drastically. It is very possible to be completely helpless if both parties' stats are set up in just the right way; which is well and away the point. Your stats matter; dammit.
-
-* Ports cigrolling from Daedalus; too
-
-Ditto with the initial commit; they've no hand in this port process - however lighters are actually feasible to exist in this setting; so I figured.. fuggit
-
-Co-Authored-By: Kapu1178 &lt;75460809+kapu1178@users.noreply.github.com&gt;
-
-* Further Daedalus Usage Ports
-
-A lot more of their use-cases than I thought would be good to have either as reference or mechanically.
-
-Being confused or floored now kneecaps your prowess. Abusing alcohol can make your grip worse. Enabling combat mode offers a boon of extra strength.
-
-Co-Authored-By: Kapu1178 &lt;75460809+kapu1178@users.noreply.github.com&gt;
-
-* Comments no longer relevant
-
-* Disarm Unit Test Potential Fix
-
-* fug
-
-* knockoff unit test
-
-* Update runtimekeep.dmm
-
-* Update runtimekeep.dmm
-
-* Unarmed Punching
-
-Unarmed isn't it's own skill. It shares retail shelfspace with blunt weaponry. I recognize this makes it a little harder to distinguish 'monks' and 'bluntsmen' but i hope the rest of the systems introduce that nuance
-
-* Fixes selfpunch unit test
-
-* Fixes harmpunch unit test
-
-* Update combat.dm
-
-* Basic Mob Punching
-
-Mirrors the changes to human unarmed combat onto unarmed combat with basic mobs. As a human. Basic mobs rolling soon(tm)
-
-* Basic Mobs now also fall under rolling
-
-* Update mob_chains.dm
-
-* Update mob_chains.dm
-
-* Update mob_chains.dm
-
-* Renames, Retools, Reassociates Each Surpemacy Skill
+                            Renames, Retools, Reassociates Each Surpemacy Skill
 
 - Swinging / Blunt weaponry have been rolled in with strength to make way for axes. Unfortunately this cucks my thoughts on how this system would work for archers, but. skull emoji
 
 - Unmerges handicraft (daedalus dock original skill) from grip (now grappling) and makes it a celerity skill. Wowee
 
 - All of guard's usecases have been migrated over to mobility/force, as guard is going to mostly be related to parry and the like; with durability taking up the real "armor skills"
-
-* Elusivity
-
-dummy atm; this will be one of a few restraint-slipping skills + have it's own functions.
-
-* Re-balances Force (lmao)
-
-* fug
-
-* Item Attack Rolling
-
-Fixes forcerolls runtiming in the process. Item attacks roll while attacking carbons &amp; simple/basic mobs, just like unarmed attacks.. meaning supremacy is in a functional prototype state! Woo! Hell yeah!!
-
-This took longer than I'd like to admit, of course. I was really spooked by how to handle send_item_attack_message but it MOSTLY is okay. it looks like. at least. I'm going to have to fix more unittests now awaawawwawaawwa
-
-* Sorts a bunch of existing items into melee categories
-
-There will likely be a lot missed. We'll cross that bridge when we come to it
-
-* guh
-
-* This novaflower one may be more hassle than it's worth
-
-I may just remove novaflowers lol
-
-* Enables Native FOV; Gives fireaxes cleaving
-
-Native FOV was a hard requirement to evoke the vibe combat had. IK /tg/ players fuckin' hated it but RT had the last laugh in that regard IG
-
-* Integrates with weapon descriptions
-
-* Update novaflower_burn.dm
-
-* Update novaflower_burn.dm
-
-* Bye felicia
-
-Call me lazy but we won't even fuckin' have botany in the same form
-
-* Update _unit_tests.dm
-
-* Makes movement weightier
-
-* Humans no longer need surnames by default
-
-This commit mostly exists so I can rant before bed. tl;dr; i tried to port citadel sprinting to help sell the combat a bit more. Unfortunately; I'm at port capacity; clearly; because even trying to rewrite it for /tg/code was a disaster. Did make two new SFX for it; though, so.. that's something?
-
-I think we're going without sprinting for a while; unless another codebase on the same license would be more workable for it or I get inspiration to do a massive ground-up piece of work AGAIN. either's feasible ig
-
-* Ports Rogue RotationLocking
-
-This is another big combat milestone! FOV no longer looks quite as 'quirked up'
-
-Unfortunately unlike Daedalus; RT's commit history was lost by nature of being, well - leaked code in violation of it's own license lmao - so I can't accredit whoever made it there. Not too bothered by it for that reason; I suppose; but just noting it. This was surprisingly more workable than Citadel sprinting; I'm assuming because it was built off.. is RT based on /vg/ or yogs? One or the other; the ID cards make it obvious which; I forgor.
-
-I had to make some cuts (mostly to eye intent being toggled on BEHALF OF the player; but still)
-
-Sleeping hasn't been ported yet and won't for a lil; if at all. (If it exists I want it to be voluntary and entirely related to levelling up; ala Oblivion. IK that's not "immersive" but it doesn't punish longform RP as much)
-
-Shuffles some keybinds as well so you may have to reset yours
-
----------
-
-Co-authored-by: Kapu1178 &lt;75460809+kapu1178@users.noreply.github.com&gt;
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">dfd289f0</span>
-                            <span class="code">code/modules/three_dsix/stats/durability.dm</span>
+                            <span class="code">f42090be</span>
+                            <span class="code">code/modules/unit_tests/knockoff_component.dm</span>
                             <span class="code">
-                                <span class="snippet additions">++4</span>
-                                <span class="snippet deletions">--0</span>
+                                <span class="snippet additions">++1</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -444,14 +306,14 @@ Co-authored-by: Kapu1178 &lt;75460809+kapu1178@users.noreply.github.com&gt;
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,4 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">/datum/rpg_stat/durability<br /></span><span class="token prefix inserted">+</span><span class="token line">name = "Durability"<br /></span><span class="token prefix inserted">+</span><span class="token line">desc = "The highwayman prattles on; telling his mark he'd best lay down - unknowing of the true rigor to his front."<br /></span><span class="token prefix inserted">+</span><span class="token line">value = STATS_BASELINE_VALUE</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -19,7 +19,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">// Position shover (bottom left) and the shovee (1 tile right of bottom left, no wall behind them)<br /></span><span class="token prefix unchanged">·</span><span class="token line">shoves_the_guy.forceMove(run_loc_floor_bottom_left)<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">shoves_the_guy.stats.set_skill_modifier(INFINITY, /datum/rpg_skill/prowess, SKILL_SOURCE_UNIT_TEST) // GUARANTEED to crit succeed<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">shoves_the_guy.stats.set_skill_modifier(INFINITY, /datum/rpg_skill/force, SKILL_SOURCE_UNIT_TEST) // GUARANTEED to crit succeed<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">set_glasses_wearer(wears_the_glasses, right_of_shover, glasses)<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">TEST_ASSERT(wears_the_glasses.glasses == glasses, "Dummy failed to equip the glasses.")</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 11 Sept 2024, 11:17:35 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 11 Sept 2024, 12:21:31 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
