@@ -291,7 +291,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA TORTURE TORTURE AGONY
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">1ec50830</span>
-                            <span class="code">code/modules/jobs/job_types/assistant/gimmick_assistants.dm</span>
+                            <span class="code">code/modules/jobs/job_types/warden.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -302,14 +302,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA TORTURE TORTURE AGONY
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -153,7 +153,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">name = "Gimmick Assistant - Lightbringer"<br /></span><span class="token prefix unchanged">·</span><span class="token line">uniform = /obj/item/clothing/under/color/yellow<br /></span><span class="token prefix unchanged">·</span><span class="token line">head = /obj/item/clothing/head/costume/cueball<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">gloves = /obj/item/clothing/gloves/color/black<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">left_hand = /obj/item/clothing/gloves/color/black<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">l_pocket = /obj/item/flashlight/lantern<br /></span><span class="token prefix unchanged">·</span><span class="token line">r_pocket = /obj/item/lightreplacer</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -56,7 +56,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">belt = /obj/item/modular_computer/pda/warden<br /></span><span class="token prefix unchanged">·</span><span class="token line">ears = /obj/item/radio/headset/headset_sec/alt<br /></span><span class="token prefix unchanged">·</span><span class="token line">glasses = /obj/item/clothing/glasses/hud/security/sunglasses<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">gloves = /obj/item/clothing/gloves/color/black/security<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">left_hand = /obj/item/clothing/gloves/color/black/security<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">head = /obj/item/clothing/head/hats/warden/red<br /></span><span class="token prefix unchanged">·</span><span class="token line">shoes = /obj/item/clothing/shoes/jackboots/sec<br /></span><span class="token prefix unchanged">·</span><span class="token line">l_pocket = /obj/item/restraints/handcuffs</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 29 Sept 2024, 09:19:37 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 29 Sept 2024, 10:14:01 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
