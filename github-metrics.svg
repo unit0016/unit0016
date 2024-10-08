@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="756" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="702" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}svg.calendar{margin-left:13px;margin-top:4px}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}svg.calendar{margin-left:13px;margin-top:4px}.added{color:#3fb950}.deleted{color:#da3633}.people{padding:0 10px}.people .avatar{margin:0 2px}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -272,7 +272,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 7 Oct 2024, 12:35:54
+                            On 6 Oct 2024, 14:28:42
                         </div>
                     </section>
                 </div>
@@ -282,19 +282,221 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Distress Beacon
+                            Moves all SC13 stuff to main repo; on it's own branch (#965)
 
-Calling the shuttle early now mimics more of how the distress beacon behaved. It'll start a siren (and light effect) that gives away your location immediately. Best to run!
+* All But Dynamic; Jobs; And Finished Slashers - Slashco 13 Rewrite
+
+I might rewrite the subsystem to apply to a dynamic ruleset instead of itself.. idk. we'll see
+
+* WOO YEAH GAMEMODE HANDLING
+
+* Anti-GBJ Measure
+
+* Job stuff
+
+* forgor
+
+* chat is this real
+
+* Converts Rimpoint W/ Slashpoint
+
+* config stuff &amp; lighting
+
+battery spawning is fucked rn. i fucked up. it's like; there's only supposed to be one per generator area. that isn't guaranteed because i'm a moron. i can't figure out proper syntax for it. either. i have a month to fix this; so it's like. fine. but. ugh
+
+* Up-ports a bunch of useful stuff from the old implementation
+
+* Fixes And Stuff
+
+* auuahhuahauauhahhuaahuahuhuuhyuh
+
+* not needed
+
+* fix prefs
+
+* Imposter Speech
+
+Ports over one of the goofier mechanics. You can now "talk" as your disguise as an Imposter.. good luck blending in; though.
+
+* Update imposter.dm
+
+* Update imposter.dm
+
+* Moves equip_slasher to antag datum
+
+* Update slashco.dm
+
+* Fixes Dynamic
+
+* PRANK 'EM JOHN
+
+* Update jobs.dm
+
+* Jumpscares. Yes; really.
+
+* Create jumpscares.dmi
+
+* Create kill.ogg
+
+* Disguised Jumpscare
+
+Shapeshift is still broken, which is the last obstacle before chasing is in and the imposter's complete
+
+* Fixes Human Disguise
+
+Imposters now actually respect your preferences, meaning they come as you set up your character. I'm sure this won't get silly at all. Fuel disguise is still busted and I'm going to have to rewrite it :(
+
+* Update imposter.dm
+
+* lol
+
+* Update imposter.dm
+
+* Broken Chase Implementation Attempt
+
+this sucks and is broken
+
+* Fixes All But Chase Music
+
+* reorganizes slasher basefile
+
+* Chase Music
+
+Now it's just jumpscare paralysis and the prototype is ready!! The rest of the slashers will need to be added still ofc. Princess is next purely because she's already in-code
+
+* Partial Paralysis Fix
+
+only undisguising as amogus.. agony
+
+* Starts Work On Princess (For Real)
+
+Guts Princess' old frenzy system since it wasn't actually accurate; oops; mb.
+
+The maths for this isn't in yet but this is the most basic blueprint for it
+
+* oops lol
+
+* princess chase music draft
+
+stopping here because i don't feel like testing this yet and i'm bored regardless; but i had the ogg converted; so. may as well slap it in now while i'm thinking of it
+
+* generator QOL
+
+* Culls the map of anything I don't feel specifically should be included
+
+- Exofabs are gone, mechs would entirely fuck things and thus aren't something I want to include
+- Telecomms is gone too; alongside all lathes; autolathes; circuit imprinters; and station bounced radios. Intercomms are being kept because I think the helplessness of not being able to always hear &amp; having to find one is nice for this
+- note: slashers should be able to unbolt doors / open shutters / lockers / etc. I might give them a subtype of knock?? that seems sane-ish
+- the ERP stuff I can think of is gone
+- mobs are gone too lol
+
+* SPOOKY title screen..
+
+* """Ports""" the distress beacon
+
+Comms consoles serve the same purpose
+
+* adds support for jumpscares not being required on a basic mob level
+
+* Working Princess Prototype
+
+None of the growling sfx they make moving around is in but the actual. MECHANICS are. I call that a win
+
+* Give the people what they want (the knock spell)
+
+* All but princess' footsteps
+
+* Bites and Footsteps
+
+* fuck
+
+* The Chase Part
+
+this sucked admittedly. W/e. I'm a dumbass... SUPER SHITCODE GO
+
+Music needs to be split into multiple smaller chunks in order to be sane unfortunately. I'm pissed
+
+* Shitcode Removal Squad
+
+Splits princess' chase music into chunks. this sucked! but it's "done". at least
+
+fun way to find out looping_sound's in_order variable is broken. IDC. Better than it was
+
+* Princess Feedback
+
+* Adds the options for slashers to be unpickable; starts work on speedrunner
+
+Speedrunner is the first umbra class; but I don't want me working on him to block testing, so... new unpickable variable!!!
+
+* Fixes I forgot to commit
+
+* Fakes amogus' jumpscare effect without hogging RSC space
+
+we won't get the luxury of this for every slasher but I think I'm being clever so that's all that matters
+
+next up is the antag info panel.
+
+* Fixes Item Spawning; Antag Info Panels; Princess Doll Spawning
+
+* awaaw
+
+* reflavor
+
+* oops lol
+
+* Comments out speedrunner instead since the unpickable var isn't mcfuckin working
+
+* guh
+
+* melts shuttle cheese in half
+
+* fixes target selection
+
+* manifest cheese fuck off
+
+* I FUCKED UP
+
+* Everything but speed and objectives
+
+I am.. woman
+
+* Slasher Speed Adjustments
+
+I've decided to commit to how princess works here in spite of being inaccurate to the source material; mainly because I just don't want to rewrite it from scratch lmao. sue me
+
+* Disables the Interlink (in the name of a functional round)
+
+sad that it had to come to this but i'm a shitcoder at heart
+
+* house of cards
+
+* Speedrunner
+
+oh y'know just a casual 969 FUCKING FILES IN THIS COMMIT. I LOVE BYOND AS A GAME ENGINE
+
+* adds a check to prevent you from jumpscaring yourself
+
+lol
+
+* jumpscare paralysis actually fixed fr
+
+* oops
+
+* NPC Spawn Framework
+
+Unused but Male07 was using this before I binned it &amp; it's a relatively nice framework to have
+
+* speedrunner fix
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">0b85de7c</span>
-                            <span class="code">tgstation.dme</span>
+                            <span class="code">721a79a8</span>
+                            <span class="code">local/code/game/area/areas/mining.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--0</span>
+                                <span class="snippet deletions">--1</span>
                             </span>
                         </div>
                     </section>
@@ -302,14 +504,14 @@ Calling the shuttle early now mimics more of how the distress beacon behaved. It
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -7197,6 +7197,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\items.dm"<br /></span><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\job.dm"<br /></span><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\lead_acid_battery.dm"<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\misc\looping_sounds.dm"<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\slashers\_slashers.dm"<br /></span><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\slashers\borgmire.dm"<br /></span><span class="token prefix unchanged">·</span><span class="token line">#include "local\code\modules\slashco13\code\modules\slashco\slashers\princess.dm"</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -13,7 +13,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">flags_1 = NONE<br /></span><span class="token prefix unchanged">·</span><span class="token line">area_flags = VALID_TERRITORY | UNIQUE_AREA | FLORA_ALLOWED<br /></span><span class="token prefix unchanged">·</span><span class="token line">sound_environment = SOUND_AREA_TAELOTH<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">ambience_index = AMBIENCE_HOLY<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">ambience_index = AMBIENCE_MINING<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">outdoors = TRUE<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/area/taeloth/Initialize(mapload)</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Oct 2024, 17:16:37 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 8 Oct 2024, 18:16:05 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
