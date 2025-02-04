@@ -264,7 +264,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 2 Feb 2025, 18:54:50
+                            On 2 Feb 2025, 19:01:43
                         </div>
                     </section>
                 </div>
@@ -274,30 +274,40 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Gas Giant / St. Lilyben Code (#973)
+                            RE: Examinemore -&gt; Examine++ Re-Pack (#998)
 
-* Implements Gas Giant Parallax
+* KILLS examinemore; replaces it with Examine++ (Melbert Vers.))
 
-Based off goofball's gas giant experiment on deltastation but rewritten. Colors have remained though -- I like them quite a bit
+hey did you know skyrat's old secret examine system snuck it's way in. did you also know I had my OWN secret examine system and melbert made it not. awful.
 
-* Gas Giant Atmos / Turfs
+...Ports https://github.com/StarbloomSS13/StarbloomSS13/pull/137/files , and fixes it up for setting / modern day.
 
-* Update tgstation.dme
+Followup commits are additional implementation on top of what's already using examinemore.
 
-* Fixes; Additional Turfs
+Co-Authored-By: MrMelbert &lt;51863163+MrMelbert@users.noreply.github.com&gt;
 
-I use these turfs a lot when mapping. Best they have gas giant variants too
+* these actually have defines now
 
-* OOPS. Missed comments
+* more usecases
 
-* lints AUGH
+* fixes department examine; spellcheck oldlore
+
+* lint
+
+* lol
+
+* Update detective.dm
+
+---------
+
+Co-authored-by: MrMelbert &lt;51863163+MrMelbert@users.noreply.github.com&gt;
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">4cd3cd2b</span>
-                            <span class="code">local/code/datums/components/chasm.dm</span>
+                            <span class="code">48b612c5</span>
+                            <span class="code">local/code/modules/mob/living/brain/MMI.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++11</span>
                                 <span class="snippet deletions">--0</span>
@@ -308,14 +318,14 @@ I use these turfs a lot when mapping. Best they have gas giant variants too
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,11 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">// Gas Giant chasm still kills you but to prevent free RR it drops you off at medbay now. sue me<br /></span><span class="token prefix inserted">+</span><span class="token line">/datum/component/chasm/gas_giant/drop(atom/movable/dropped_thing)<br /></span><span class="token prefix inserted">+</span><span class="token line">. = ..()<br /></span><span class="token prefix inserted">+</span><span class="token line">if(isliving(dropped_thing))<br /></span><span class="token prefix inserted">+</span><span class="token line">	for(var/area/station/medical/medbay/pod_collection/found_pod_collection_room)<br /></span><span class="token prefix inserted">+</span><span class="token line">		var/our_pod = podspawn(list(<br /></span><span class="token prefix inserted">+</span><span class="token line">			"target" = pick(get_area_turfs(found_pod_collection_room)), \<br /></span><span class="token prefix inserted">+</span><span class="token line">		))<br /></span><span class="token prefix inserted">+</span><span class="token line">		dropped_thing.forceMove(our_pod)<br /></span><span class="token prefix inserted">+</span><span class="token line">		return<br /></span><span class="token prefix inserted">+</span><span class="token line">	CRASH("No pod collection room on the map! Unable to save a falling mob!")</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -0,0 +1,11 @@</span><br /><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">/obj/item/mmi/syndie/Initialize(mapload)<br /></span><span class="token prefix inserted">+</span><span class="token line">. = ..()<br /></span><span class="token prefix inserted">+</span><span class="token line">var/static/list/our_boys_in_red = list(/datum/antagonist/traitor, /datum/antagonist/nukeop)<br /></span><span class="token prefix inserted">+</span><span class="token line"><br /></span><span class="token prefix inserted">+</span><span class="token line">AddElement(/datum/element/unique_examine, \<br /></span><span class="token prefix inserted">+</span><span class="token line">	desc = "This MMI uploads a modified version of Asimov curated by The Syndicate. \<br /></span><span class="token prefix inserted">+</span><span class="token line">		Caution should be taken while using this device - although effective, the resulting unit is loyal \<br /></span><span class="token prefix inserted">+</span><span class="token line">		to The Syndicate as a whole rather than any specific cell, and may go against your directives.", \<br /></span><span class="token prefix inserted">+</span><span class="token line">	desc_requirement = EXAMINE_CHECK_ANTAG, \<br /></span><span class="token prefix inserted">+</span><span class="token line">	requirements = our_boys_in_red, \<br /></span><span class="token prefix inserted">+</span><span class="token line">	hint = FALSE) // hint would give it away</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 Feb 2025, 12:14:29 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 4 Feb 2025, 13:22:09 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
