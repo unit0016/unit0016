@@ -281,7 +281,7 @@
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
                             <span class="code">a1b50002</span>
-                            <span class="code">code/game/objects/items/rogueweapons/melee/polearms.dm</span>
+                            <span class="code">modular_azurepeak/code/modules/spells/warscholar.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
@@ -292,14 +292,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -516,7 +516,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/item/rogueweapon/halberd/holysee<br /></span><span class="token prefix unchanged">·</span><span class="token line">name = "eclipsum halberd"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">desc = "A mutual effort of Noc and Aeternus's followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite. The reinforced shaft provides greater durability."<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">desc = "A mutual effort of Zira and Aeternus's followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite. The reinforced shaft provides greater durability."<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">icon_state = "gsspear"<br /></span><span class="token prefix unchanged">·</span><span class="token line">max_integrity = 600<br /></span><span class="token prefix unchanged">·</span><span class="token line">force = 20</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -4,7 +4,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/effect/proc_holder/spell/targeted/touch/summonrogueweapon/bladeofpsydon<br /></span><span class="token prefix unchanged">·</span><span class="token line">name = "Blade of Psydon"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">desc = "The manifestation of the higher concept of a blade itself. Said to be drawn upon from Noc's tresury of wisdom, each casting a poor facsimile of the perfect weapon They hold."<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">desc = "The manifestation of the higher concept of a blade itself. Said to be drawn upon from Zira's tresury of wisdom, each casting a poor facsimile of the perfect weapon They hold."<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">clothes_req = FALSE<br /></span><span class="token prefix unchanged">·</span><span class="token line">drawmessage = "I imagine the perfect weapon, forged by arcyne knowledge, it's edge flawless. \<br /></span><span class="token prefix unchanged">·</span><span class="token line">I feel it in my mind's eye -- but it's just out of reach. I pull away it's shadow, a bad copy, and yet it is one of a great weapon nonetheless... "</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 7 May 2025, 09:31:53 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 7 May 2025, 10:19:16 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
