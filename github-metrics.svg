@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="687" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="713" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}svg.calendar{margin-left:13px;margin-top:4px}.deleted{color:#da3633}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}.gemoji{height:1em;width:1em;margin-bottom:-.125em}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.contribution.organization{display:flex;border:1px solid #959da5;border-radius:6px;padding:2px 6px 2px 0;margin:2px;font-size:12px;background-color:#959da520}.contribution.organization.s{color:#eb355e;background-color:#eb355e26;border-color:#eb355e}.contribution.organization.a{color:#d79533;background-color:#e7bd6926;border-color:#e7bd69}.contribution.organization.b{color:#9d8fff;background-color:#9e91ff26;border-color:#9e91ff}.contribution.organization.c{color:#58a6ff;background-color:#58a6ff26;border-color:#58a6ff}.contribution.organization .avatar{margin:0 4px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}svg.calendar{margin-left:13px;margin-top:4px}.deleted{color:#da3633}.snippet .body{padding-left:12px}.snippet .language-diff{font-size:77%}.snippet.additions{color:#336543}.snippet.deletions{color:#9a5256}.snippet .token.prefix.unchanged{visibility:hidden}.markdown b,.markdown i{display:inline-block;width:97%}.markdown p{margin:8px 0}.markdown a{color:#58a6ff;text-decoration:none}code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}code{display:inline-block}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}span.code{margin:0 4px -3px}.token.coord{color:#d2a8ff;font-weight:700}.token.inserted:not(.prefix){color:#aad0b4dc;background-color:#336543dc}.token.deleted:not(.prefix){color:#eed2d0dc;background-color:#9a5256dc}.space{margin-left:7px}.blue{color:#58a6ff}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            10873 Commits
+                            10874 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -264,7 +264,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 27 May 2025, 01:04:31
+                            On 27 May 2025, 01:01:26
                         </div>
                     </section>
                 </div>
@@ -274,226 +274,16 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            [MDB Ignore] The Job Reshufflening (#65)
-
-* Part 1 - The Reshuffle Itself, Codewise
-
-Reshuffles so many jobs it's CRAZY. Nearly every role has been moved, merged, or changed slightly.
-If you were playing a role that no longer exists - It most likely still does, it's just been merged into another!
-It's also likely your job could've been moved into another 'department' - soilsons having been shifted to the church. Some removals DID take place though.
-IE:
-Tailor -&gt; Merchant
-Also adds the Janitor, a merged version of the towner adv. class carpenter/mason with the blessing of the university to scrub floors magically.
-
-* West Gate &amp; Vulnerability
-
-* oop
-
-* All but the church, I think
-
-* Okay. Better
-
-* church
-
-* yeah
-
-* soil
-
-* super awesome..
-
-* nuclear option
-
-the solar basion is still technically "station space" equivalent, forgive me for not liking ambush mobs on it
-
-* woo
-
-* woo
-
-* yeah
-
-* druid adv. class
-
-Still locked to tamari worshippers, with built in href exploit prevention. I see you fuckers.
-
-* KEYS!!! FOR EVERYONE!!!
-
-* Starts moving the deacon over #1
-
-* yea
-
-* lot more southeast map stuff
-
-TO BE MOVED
-- ARTIFICER
-- MAGE'S UNIVERSITY
-- CHURCH
-- INN
-- ADVENTURER'S GUILD
-
-* start moving mage univ
-
-* head mage
-
-* more key stuff
-
-* more
-
-* soilsons back to peasantry
-
-* more
-
-* more
-
-* oop
-
-* ALL BUT THE SEWERS
-
-* town rework in full
-
-* janimap stuff
-
-* oop 1
-
-* kill mii
-
-* some more sewers cleanup
-
-i want to expand these a bit more to replace the areas lost. soontm. blacksmith merge first
-
-* little more sewers work
-
-accidentally made the leyawiin problem
-
-* little more sewer slop before remaining todos
-
-* yea
-
-* the issues
-
-* changelog
-
-* lol
-
-* cook slot
-
-* random map tweaks
-
-* more maptweaks
-
-* more sewer stuff
-
-* oh
-
-* go BACK
-
-* bugfix
-
-* other bug fix
-
-* COME ON
-
-* ffs
-
-* deacon nerf
-
-* Readds the Tailor
-
-* oop
-
-* OOPS
-
-* oop
-
-* sewerslime
-
-* oop
-
-* Implements a greenscreen turf
-
-This isn't particularly a job rework thing but it is a wiki thing and the wiki RELIES on job rework atm so. like. yknow
-
-* druid faf
-
-* mag stair
-
-* more sewer surfin
-
-* deprecates undercroft key
-
-* ffs
-
-* ffs
-
-* fixes
-
-* idc
-
-* yeah
-
-* Removes Beast Form and Bless Crops.
-
-You fuckers. You absolute motherfuckers.
-
-* maptweaks
-
-* Church Remap 2: Electric Boogaloo
-
-* gave this an id for a reason
-
-* nah man that's TOO easy
-
-* oop
-
-* oops
-
-* spell
-                            <img class="gemoji" src="data:image/png;base64,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" height="16" width="16" alt="" />
-                            ook
-
-* revert
-
-* druid KNIFE
-
-* Wretch Re-addition
-
-* wretch spawns
-
-* protects the nervemaster a little more
-
-* oops
-
-* benches :)
-
-* true
-
-* barrels of fun
-
-* YOU ARE A PEASANT
-
-* gone fishin
-
-* DIE
-
-* OOPS
-
-* LOL
-
-* guhghg
-
-* shifts some scoms around
-
-* swag
-
-* marquisposting
+                            marquisposting
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">5a365b9f</span>
-                            <span class="code">code/modules/jobs/job_types/roguetown/town/sidefolk/clerk.dm</span>
+                            <span class="code">95b1b920</span>
+                            <span class="code">code/controllers/subsystem/rogue/treasury.dm</span>
                             <span class="code">
-                                <span class="snippet additions">++2</span>
+                                <span class="snippet additions">++1</span>
                                 <span class="snippet deletions">--1</span>
                             </span>
                         </div>
@@ -502,14 +292,14 @@ You fuckers. You absolute motherfuckers.
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -1,7 +1,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">/datum/job/roguetown/clerk<br /></span><span class="token prefix unchanged">·</span><span class="token line">title = "Clerk"<br /></span><span class="token prefix unchanged">·</span><span class="token line">flag = CLERK<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">department_flag = SIDEFOLK<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">department_flag = NOBLEMEN<br /></span><span class="token prefix inserted">+</span><span class="token line">selection_color = JCOLOR_PEASANT<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">faction = "Station"<br /></span><span class="token prefix unchanged">·</span><span class="token line">total_positions = 1<br /></span><span class="token prefix unchanged">·</span><span class="token line">spawn_positions = 1</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -76,7 +76,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	amt_to_generate = amt_to_generate - (amt_to_generate * queens_tax)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	amt_to_generate = round(amt_to_generate)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	give_money_treasury(amt_to_generate, "wealth hoard")<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	send_ooc_note("Income from wealth hoard: +[amt_to_generate]", job = list("Grand Duke", "Steward", "Clerk"))<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	send_ooc_note("Income from wealth hoard: +[amt_to_generate]", job = list("Marquis", "Steward", "Clerk"))<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/datum/controller/subsystem/treasury/proc/add_to_vault(var/obj/item/I)<br /></span><span class="token prefix unchanged">·</span><span class="token line">if(I.get_real_price() &lt;= 0 || istype(I, /obj/item/roguecoin))</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 28 May 2025, 18:17:52 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 28 May 2025, 19:17:53 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
