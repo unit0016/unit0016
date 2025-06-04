@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="780" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="833" class="">
     <defs>
         <style/>
     </defs>
@@ -270,21 +270,23 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            Some Small Mage's University Fixes (#115)
+                            Revert "Re-Enable Werewolves (#97)" (#109)
 
-* no longe rlocked
+* Revert "Re-Enable Werewolves (#97)"
 
-* quick head mage patches
+This reverts commit d7acbdf8c49684904cdbae2f70ed003e77a379cf.
+
+* GUH
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">31369516</span>
-                            <span class="code">code/game/objects/items/rogueitems/keyrings.dm</span>
+                            <span class="code">716af9c5</span>
+                            <span class="code">code/game/gamemodes/objectives_rogue.dm</span>
                             <span class="code">
-                                <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++2</span>
+                                <span class="snippet deletions">--2</span>
                             </span>
                         </div>
                     </section>
@@ -292,14 +294,14 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -242,7 +242,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">keys = list(/obj/item/roguekey/mages_university, /obj/item/roguekey/mages_university/private)<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/item/storage/keyring/head_mage<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">keys = list(/obj/item/roguekey/mages_university, /obj/item/roguekey/mages_university/private, /obj/item/roguekey/mages_university/head_mage)<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">keys = list(/obj/item/roguekey/mages_university, /obj/item/roguekey/mages_university/private, /obj/item/roguekey/mages_university/head_mage, /obj/item/roguekey/archive, /obj/item/roguekey/artificer)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/obj/item/storage/keyring/artificer<br /></span><span class="token prefix unchanged">·</span><span class="token line">keys = list(/obj/item/roguekey/mages_university, /obj/item/roguekey/mages_university/private, /obj/item/roguekey/artificer)</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -19,8 +19,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/datum/objective/werewolf<br /></span><span class="token prefix unchanged">·</span><span class="token line">name = "conquer"<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">explanation_text = "You are a werewolf, a monsterous beast that walks the night in search of prey. Work with your fellow werewolves and protect the pack from all threats by any means necessary. Survival means blood."<br /></span><span class="token prefix deleted">-</span><span class="token line">team_explanation_text = "You are a werewolf, a monsterous beast that walks the night in search of prey. Work with your fellow werewolves and protect the pack from all threats by any means necessary. Survival means blood."<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">explanation_text = "Fear not the moon and Zira's light."<br /></span><span class="token prefix inserted">+</span><span class="token line">team_explanation_text = "Lycanthropy is a terrible disease that's been recorded in scattered accounts going back hundreds of years. Nightly transformations and prodigious increses in mass drive the body into an active state of insatiable starvation, driving animalistic, rabid behavior."<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">triumph_count = 5<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/datum/objective/werewolf/check_completion()</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 4 Jun 2025, 01:19:00 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 4 Jun 2025, 02:28:00 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
