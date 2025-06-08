@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="700" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="767" class="">
     <defs>
         <style/>
     </defs>
@@ -260,7 +260,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 6 Jun 2025, 01:42:06
+                            On 6 Jun 2025, 14:23:42
                         </div>
                     </section>
                 </div>
@@ -270,80 +270,17 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            [REQUESTED] Ported Bulk Magic Rebalance (#135)
-
-* Mage Overhaul - Part 1
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2070
-
-i panicked when i realized this wasn't the earliest pr i had to port, but hey, i made it work.
-
-Co-Authored-By: WeNeedMorePhoron &lt;132836028+WeNeedMorePhoron@users.noreply.github.com&gt;
-
-* Make some spells requires uncuffed hands
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/1997
-
-Co-Authored-By: WeNeedMorePhoron &lt;132836028+WeNeedMorePhoron@users.noreply.github.com&gt;
-
-* Big Wizard Balance PR;
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2061
-
-Co-Authored-By: babamandaa &lt;182180006+babamandaa@users.noreply.github.com&gt;
-
-* adds magic staffs as a source of cast time reduction
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2271
-
-Co-Authored-By: kittysmooch &lt;105110468+kittysmooch@users.noreply.github.com&gt;
-
-* cleans up mage staffs :3c
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2281
-
-Co-Authored-By: kittysmooch &lt;105110468+kittysmooch@users.noreply.github.com&gt;
-
-* Compile Fixes
-
-* Mage Overhaul - Part 2. Telegraphing, Refactoring + New Spells
-
-Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2197
-DOES NOT COMPILE YET. Needs more work; obj_fix() is kinda critical to get in this too.
-
-* Actually removes mending instead
-
-Blacksmiths are ALREADY swamped and have more than enough going on. While unifying OBJ damage is nice code-wise; I'm just.. nah. Path of least resistance tonight, this is a huge PR as-is.
-
-* compile fixes
-
-* Staff &amp; Brick Fixes
-
-* mapcompile
-
-* staff crafting fix
-
-* oop
-
-* bruh
-
-* ah
-
----------
-
-Co-authored-by: WeNeedMorePhoron &lt;132836028+WeNeedMorePhoron@users.noreply.github.com&gt;
-Co-authored-by: babamandaa &lt;182180006+babamandaa@users.noreply.github.com&gt;
-Co-authored-by: kittysmooch &lt;105110468+kittysmooch@users.noreply.github.com&gt;
+                            Readds Beastform (#126)
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">8cff2de4</span>
-                            <span class="code">modular_azurepeak/code/modules/spells/minion_order.dm</span>
+                            <span class="code">e6b210a0</span>
+                            <span class="code">code/datums/gods/patrons/three_sisters.dm</span>
                             <span class="code">
-                                <span class="snippet additions">++1</span>
-                                <span class="snippet deletions">--1</span>
+                                <span class="snippet additions">++2</span>
+                                <span class="snippet deletions">--2</span>
                             </span>
                         </div>
                     </section>
@@ -351,14 +288,14 @@ Co-authored-by: kittysmooch &lt;105110468+kittysmooch@users.noreply.github.com&g
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -6,7 +6,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">chargedrain = 1<br /></span><span class="token prefix unchanged">·</span><span class="token line">chargetime = 0 SECONDS<br /></span><span class="token prefix unchanged">·</span><span class="token line">releasedrain = 0 <br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">charge_max = 3 SECONDS<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">recharge_time = 3 SECONDS<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">var/order_range = 12<br /></span><span class="token prefix unchanged">·</span><span class="token line">var/faction_ordering = FALSE ///this sets whether it orders mobs the user is aligned with in range or just mobs who are the character's 'friends' (ie, their summons)<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,9 +11,9 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">		it and permit itself be altered. There are ancient and wild places of the earth still yet untouched by civilization, and it is in these places that Tamari's primal song of creation may yet still be heard."<br /></span><span class="token prefix unchanged">·</span><span class="token line">worshippers = "Druids, Nomads, Naturalists, Outsiders, and Wanderers."<br /></span><span class="token prefix unchanged">·</span><span class="token line">mob_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_LEECHIMMUNE)<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">t1 = /obj/effect/proc_holder/spell/self/howl/call_of_the_moon<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">t1 = /obj/effect/proc_holder/spell/self/tamari_shapeshift<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">t2 = /obj/effect/proc_holder/spell/targeted/conjure_glowshroom<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">t3 = null<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">t3 = /obj/effect/proc_holder/spell/self/howl/call_of_the_moon<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">t4 = null<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">/datum/patron/three_sisters/nunos</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jun 2025, 02:26:50 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 8 Jun 2025, 03:16:49 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
