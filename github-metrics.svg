@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="713" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="727" class="">
     <defs>
         <style/>
     </defs>
@@ -30,20 +30,20 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -260,7 +260,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 24 Jun 2025, 02:28:05
+                            On 22 Jun 2025, 23:10:01
                         </div>
                     </section>
                 </div>
@@ -270,51 +270,45 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            [TM First] [MDB Ignore] Ruby's Great Big Area Jumble (#212)
+                            Lootdrop Icons &amp; Ports for Window Jumping &amp; Announcement Logging (#203)
 
-* The Area Cull: Space Go Byebye, Always On DRM
+* User-made announces will log, now
 
-Culls EVERY deadcode area. Every single one.
+Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2777
 
-* space removal
+Co-Authored-By: Ryan180602 &lt;50071611+Ryan180602@users.noreply.github.com&gt;
 
-* initial supplypod work
+* Throwing/Jumping Through Windows - Vanderlin Port
 
-* Strips Areas Back To Workable State; Manor Split
+Ports https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak/pull/2791
 
-I gotta do more.
+Co-Authored-By: Stutternov &lt;47883419+stutternov@users.noreply.github.com&gt;
+Co-Authored-By: Stiff Robot &lt;39524296+stiffrobot@users.noreply.github.com&gt;
 
-* Garrison Splitup
+* Fuck it; Some Original Stuff &amp; Fixes
 
-* Ramparts
+Resprites The Progress Bar back to /tg/ standard; but in the style of parchment! I thought it was neat; you can't blame me too heavily.
 
-* Mage's University Areas
+Resprites random spawners to /tg/ standard as well. They're no longer purple squares.
+Why is this bundled in the port PR? I wanted to port the AI improvements due to an uptick in pathfinding abuse atm; but that's not ready yet and I didn't want to wait on critical logging.
 
-* Chapel
+So. Yanno. Fuck it; right? Nobody's gonna tell me to atomize my own PR when I'm gonna merge it myself. &gt;:)
 
-* oh my god
+* Revert "Fuck it; Some Original Stuff &amp; Fixes"
 
-* centcom z quickfixes
+This reverts commit cf699ecc2ba6e6ebece7494a8849ed0bbd449e76.
 
-* fixes the CC podlauncher description
+---------
 
-* teleport beacon reshuffle
-
-* area name updates
-
-* I missed the farm; oops!
-
-* riverbrook areadefs
-
-* oop
-
-* oop
+Co-authored-by: Ryan180602 &lt;50071611+Ryan180602@users.noreply.github.com&gt;
+Co-authored-by: Stutternov &lt;47883419+stutternov@users.noreply.github.com&gt;
+Co-authored-by: Stiff Robot &lt;39524296+stiffrobot@users.noreply.github.com&gt;
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">1c64dce7</span>
+                            <span class="code">4c9b5233</span>
                             <span class="code">code/modules/jobs/job_types/roguetown/external/adventurer/types/pilgrim/herald.dm</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
@@ -326,14 +320,14 @@ I gotta do more.
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -28,7 +28,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">if(world.time &lt; last_herald_announce + 300 SECONDS)<br /></span><span class="token prefix unchanged">·</span><span class="token line">	to_chat(src, span_warning("You must wait [round((last_herald_announce + 300 SECONDS - world.time)/600, 0.1)] minutes before making another announcement!"))<br /></span><span class="token prefix unchanged">·</span><span class="token line">	return FALSE<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">if(!istype(get_area(src), /area/rogue/indoors/town/tavern))<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">if(!istype(get_area(src), /area/provincial/indoors/town/tavern))<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	to_chat(src, span_warning("You need to be in the tavern to make an announcement!"))<br /></span><span class="token prefix unchanged">·</span><span class="token line">	return FALSE<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -34,7 +34,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">visible_message(span_warning("[src] takes a deep breath, preparing to make an announcement.."))<br /></span><span class="token prefix unchanged">·</span><span class="token line">if(do_after(src, 30 SECONDS, target = src))<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">	priority_announce("[inputty]", "The Herald Proclaims", 'sound/misc/bell.ogg')<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">	priority_announce("[inputty]", "The Herald Proclaims", 'sound/misc/bell.ogg', sender = src)<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">	last_herald_announce = world.time<br /></span><span class="token prefix unchanged">·</span><span class="token line">else<br /></span><span class="token prefix unchanged">·</span><span class="token line">	to_chat(src, span_warning("Your announcement was interrupted!"))</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Jun 2025, 19:18:08 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 24 Jun 2025, 21:38:51 (timezone America/New_York) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
